@@ -1,0 +1,5 @@
+.git/
+.idea/
+ExtentReports/
+target/
+ExtentReports/ExtentReportResults.html
