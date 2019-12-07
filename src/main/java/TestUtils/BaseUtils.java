@@ -42,11 +42,8 @@ public class BaseUtils {
     }
     public static Map<String, String> Header() {
         Map<String, String> Headers = new HashMap<>();
-        Headers.put("Authorization", "Bearer d453c0d4-7011-48c4-9784-ad6b28d8c60e");
+        Headers.put("Authorization", "Bearer xxxxxxxxx");
         Headers.put("Content-Type", "application/json;charset=UTF-8");
-        Headers.put("x-enterprise-id", "E000109");
-        Headers.put("x-store-id", "S000000109");
-        Headers.put("REMOTE_USER", "sys-user-driveflex-admin");
 
         return Headers;
     }
