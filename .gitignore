@@ -1,5 +1,10 @@
-.git/
 .idea/
-ExtentReports/
-target/
-ExtentReports/ExtentReportResults.html
+.git/
+extentreport/
+extentreport/ExtentReportResults.html
+target/*
+bin/
+.settings/
+.project
+.classpath
+cdkApiTests.iml
