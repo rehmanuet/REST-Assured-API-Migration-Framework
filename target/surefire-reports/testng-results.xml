@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Testing Suite" duration-ms="30100" started-at="2020-04-27T13:42:31 PKT" finished-at="2020-04-27T13:43:01 PKT">
+    <groups>
+      <group name="post">
+        <method signature="ApiValidationPOST.postEndpointValidation(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.cdk.qa.framework.validators.ApiValidationPOST@4923ab24]" name="postEndpointValidation" class="com.cdk.qa.framework.validators.ApiValidationPOST"/>
+      </group> <!-- post -->
+    </groups>
+    <test name="API Tests" duration-ms="30100" started-at="2020-04-27T13:42:31 PKT" finished-at="2020-04-27T13:43:01 PKT">
+      <class name="com.cdk.qa.framework.validators.ApiValidationPOST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cdk.qa.framework.validators.ApiValidationPOST@4923ab24]" name="setup" is-config="true" duration-ms="1289" started-at="2020-04-27T13:42:48 PKT" finished-at="2020-04-27T13:42:49 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="postEndpointValidation(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.cdk.qa.framework.validators.ApiValidationPOST@4923ab24]" name="postEndpointValidation" duration-ms="12077" started-at="2020-04-27T13:42:49 PKT" data-provider="data-provider" finished-at="2020-04-27T13:43:01 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PostTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://petstore.swagger.io/v2/pet/22]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://petstore.swagger.io/v2/pet]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{
+  "id": 22,
+  "category": {
+    "id": 1,
+    "name": "TestCDK"
+  },
+  "name": "CDK",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 2,
+      "name": "NBS"
+    }
+  ],
+  "status": "available"
+}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postEndpointValidation -->
+        <test-method status="PASS" signature="endTestSuite()[pri:0, instance:com.cdk.qa.framework.validators.ApiValidationPOST@4923ab24]" name="endTestSuite" is-config="true" duration-ms="306" started-at="2020-04-27T13:43:03 PKT" finished-at="2020-04-27T13:43:03 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestSuite -->
+      </class> <!-- com.cdk.qa.framework.validators.ApiValidationPOST -->
+    </test> <!-- API Tests -->
+  </suite> <!-- API Testing Suite -->
+</testng-results>

@@ -1,0 +1,9 @@
+F:\qa-api-test-automation-framework\src\main\java\com\cdk\qa\framework\utils\Constants.java
+F:\qa-api-test-automation-framework\src\main\java\com\cdk\qa\framework\utils\FileUtils.java
+F:\qa-api-test-automation-framework\src\main\java\com\cdk\qa\framework\config\extent\ExtentManager.java
+F:\qa-api-test-automation-framework\src\main\java\com\cdk\qa\framework\services\S3Manager.java
+F:\qa-api-test-automation-framework\src\main\java\com\cdk\qa\framework\services\SESManager.java
+F:\qa-api-test-automation-framework\src\main\java\com\cdk\qa\framework\config\extent\ExtentTestManager.java
+F:\qa-api-test-automation-framework\src\main\java\com\cdk\qa\framework\services\SSMManager.java
+F:\qa-api-test-automation-framework\src\main\java\com\cdk\qa\framework\utils\FlatMapUtil.java
+F:\qa-api-test-automation-framework\src\main\java\com\cdk\qa\framework\utils\RestAssuredUtils.java
